@@ -11,11 +11,11 @@ from telegram import __version__ as lver
 from RocksAlexaRobot import BOT_USERNAME, OWNER_USERNAME, SUPPORT_CHAT, pgram
 
 PHOTO = [
-    "https://telegra.ph/file/8d5ae37f8b4b2b1b64763.jpg",
-    "https://telegra.ph/file/2d4d106a4b4ecacb99374.jpg",
-    "https://telegra.ph/file/e635ced7273b64341adea.jpg",
-    "https://telegra.ph/file/e42dfbac4be6ddbf1d99f.jpg",
-    "https://telegra.ph/file/db0a91985e4e963b6ef31.jpg",
+    "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+    "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+    "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+    "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+    "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
 ]
 
 SHREYXD = [
@@ -43,9 +43,9 @@ async def restart(client, m: Message):
     await asyncio.sleep(0.1)
     await m.reply_photo(
         random.choice(PHOTO),
-        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ ᴀʟᴇxᴀ ✘ ʀᴏʙᴏᴛ​**
+        caption=f"""**ʜᴇʏ​ ɪ ᴀᴍ ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ**
         ━━━━━━━━━━━━━━━━━━━
-        » **ᴍʏ ᴏᴡɴᴇʀ :** [ᴀsᴀᴅ](https://t.me/{OWNER_USERNAME})
+        » **ᴍʏ ᴏᴡɴᴇʀ :** [ʀᴇɴᴄʜᴏ](https://t.me/{OWNER_USERNAME})
         
         » **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ :** `{lver}`
         
