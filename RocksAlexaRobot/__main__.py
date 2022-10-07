@@ -118,7 +118,7 @@ buttons = [
                              url=f"https://t.me/Haruki_Updates"),
                         ],
                        [
-                           InlineKeyboardButton(text="💓 ʟᴏᴠᴇ", url="t.me/About_PRiYANSHU"
+                           InlineKeyboardButton(text="💓 ɢɪᴠᴇ ᴍᴇ ʜᴇᴀʀᴛ ❤️", url="t.me/About_PRiYANSHU"
          ),
     ],
 ]
@@ -132,7 +132,7 @@ HELP_STRINGS = """
 ✪ - /donate: *ɢɪᴠᴇs ʏᴏᴜ ɪɴғᴏ ᴏɴ ʜᴏᴡ ᴛᴏ sᴜᴘᴘᴏʀᴛ ᴍᴇ ᴀɴᴅ ᴍʏ ᴄʀᴇᴀᴛᴏʀ.*
 ────────────────────────
 ✪ ɪғ ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ʀᴇᴘᴏʀᴛ ʙᴜɢs ᴏʀ ʜᴀᴠᴇ ᴀɴʏ ǫᴜᴇsᴛɪᴏɴs ᴏɴ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ᴛʜᴇɴ ғᴇᴇʟ ғʀᴇᴇ ᴛᴏ ʀᴇᴀᴄʜ ᴏᴜᴛ: @FriendChattingHub125 ᴏʀ ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ [ᴏᴡɴᴇʀ](http://t.me/Officialdhkd)
-✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ: [(/),(!),(?),(.),(~)](https://telegra.ph/file/9d22fedee29fdefdb4862.jpg)
+✪ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ᴛʜᴇ ғᴏʟʟᴏᴡɪɴɢ: [(/),(!),(?),(.),(~)](https://te.legra.ph/file/85aa9c86485bd0d711424.jpg)
 ✪ ʟɪsᴛ ᴏғ ᴀʟʟ ᴛʜᴇ ᴍᴏᴅᴜʟᴇs:
 ────────────────────────
 """.format(
@@ -140,16 +140,16 @@ HELP_STRINGS = """
     "" if not ALLOW_EXCL else "📝 ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ᴇɪᴛʜᴇʀ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ / ᴏʀ !.",
 )
 
-HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴀɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ."
+HELP_MSG = "ᴄʟɪᴄᴋ ᴛʜᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴘ ᴍᴇɴᴜ ɪɴ ʏᴏᴜʀ ᴘᴍ."
 DONATE_STRING = """ᴄᴏɴᴛᴀᴄᴛ ᴛᴏ ᴍʏ ᴘʀᴇᴛᴛʏ [ᴏᴡɴᴇʀ](t.me/Officialdhkd)"""
-HELP_IMG= "https://telegra.ph/file/93aa52512ccd256888b28.jpg"
-GROUPSTART_IMG= "https://telegra.ph/file/35e730dea457c85cc367b.mp4"
+HELP_IMG= "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg"
+GROUPSTART_IMG= "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg"
 
-PM_IMG = ( "https://telegra.ph/file/8d2bf852a53bd13fb8037.jpg",
-           "https://telegra.ph/file/6f43301a3e43d20f7906a.jpg",
-           "https://telegra.ph/file/c71c9940f27143f1d6b7b.jpg",
-           "https://telegra.ph/file/93aa52512ccd256888b28.jpg",
-           "https://telegra.ph/file/0d7fd638c3c2ea21176a1.jpg", )
+PM_IMG = ( "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+           "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+           "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+           "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+           "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg", )
 
 
 IMPORTED = {}
@@ -266,15 +266,15 @@ def start(update: Update, context: CallbackContext):
     else:
         first_name = update.effective_user.first_name
         update.effective_message.reply_video(
-            GROUPSTART_IMG, caption= "*ʜᴇʏ {},*\n*ᴏғғɪᴄɪᴀʟ ᴀʟᴇxᴀ ɪs ʜᴇʀᴇ*\n*ᴘᴏᴡᴇʀ ʟᴀᴠᴇʟ ᴛɪᴍᴇ* : {} ".format(
+            GROUPSTART_IMG, caption= "*ʜᴇʏ {},*\n*ᴏғғɪᴄɪᴀʟ ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ ɪs ʜᴇʀᴇ*\n*ᴘᴏᴡᴇʀ ʟᴀᴠᴇʟ ᴛɪᴍᴇ* : {} ".format(
              first_name,uptime
             ),
             parse_mode=ParseMode.MARKDOWN,
         reply_markup=InlineKeyboardMarkup(
                 [
                   [
-                  InlineKeyboardButton(text="💌 ᴋɪɴɢ ", url=f"t.me/Dr_Assad_Ali"),
-                  InlineKeyboardButton(text="😎 ᴜᴘᴅᴀᴛᴇs ", url=f"t.me/AsadSupport"),
+                  InlineKeyboardButton(text="💌 ᴋɪɴɢ ", url=f"t.me/ME_izPRiYANSHU"),
+                  InlineKeyboardButton(text="😎 ᴜᴘᴅᴀᴛᴇs ", url=f"t.me/Haruki_Updates"),
                   ]
                 ]
             ),
@@ -353,7 +353,7 @@ def help_button(update, context):
         if mod_match:
             module = mod_match.group(1)
             text = (
-                "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ* © [ᴅʀ ᴀsᴀᴅ ᴀʟɪ](t.me/Dr_Assad_Ali) *ᴀɴᴅ* [ʜᴀʀsʜɪᴛ sʜᴀʀᴍᴀ](t.me/HarshitSharma361)\n*ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ {} ᴍᴏᴅᴜʟᴇs:*\n".format(
+                "*ᴘᴏᴡᴇʀᴇᴅ ʙʏ* © [ʀᴇɴᴄʜᴏ](t.me/officialdhkd) *ᴀɴᴅ* [ᴘʀɪʏᴀɴsʜᴜ](t.me/ME_izPRiYANSHU)\n*ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴛʜᴇ {} ᴍᴏᴅᴜʟᴇs:*\n".format(
                     HELPABLE[module].__mod_name__
                 )
                 + HELPABLE[module].__help__
@@ -659,7 +659,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 2042185317 and DONATION_LINK:
+        if OWNER_ID != 5348334495 and DONATION_LINK:
             update.effective_message.reply_text(
                 "*ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴘᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ*"
                 "[ʜᴇʀᴇ]({})".format(DONATION_LINK),
@@ -712,8 +712,8 @@ def main():
         try:
             dispatcher.bot.send_photo(
                 f"@{SUPPORT_CHAT}",
-                "https://telegra.ph/file/36be820a8775f0bfc773e.jpg",
-                caption="「 ᴀʟᴇxᴀʀᴏʙᴏᴛ 」 ɪs ᴀʟɪᴠᴇ ✌️!\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ᴀɴᴅ @AsadSupport 🤏",
+                "https://te.legra.ph/file/85aa9c86485bd0d711424.jpg",
+                caption="「 ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ 」 ɪs ᴀʟɪᴠᴇ ✌️!\n\nᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ᴀɴᴅ @Haruki_Updates 🤏",
             )
         except Unauthorized:
             LOGGER.warning(
