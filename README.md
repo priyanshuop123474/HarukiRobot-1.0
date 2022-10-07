@@ -1,5 +1,5 @@
 
-<h1 align="center"><b>❤️ ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ ❤️</b></h1>
+<h1 align="center"><b> ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ </b></h1>
 
 <h4 align="center">Haruki Robot A Powerful, Smart And Simple Group Manager <br> ... Written with AioGram , Pyrogram and Telethon...</h4>
 <p align='center'>
@@ -20,7 +20,7 @@
 
 > ⭐️ Thanks to everyone for using Rocks Alexa, That is the greatest pleasure we have !
 
-## Avaiilable on Telegram as [@Haruki_Updates](https://telegram.me/Haruki_Robot)
+## Avaiilable on Telegram as [ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ](https://telegram.me/Haruki_Robot)
 
 ## ✨ Easy To Deploy Direct In Repo✨
 
