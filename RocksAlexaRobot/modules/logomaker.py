@@ -124,7 +124,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Alexa Help](https://t.me/Alexa_Help)",
+            caption="Logo by [ʜᴀʀᴜᴋɪ ✗ ʀᴏʙᴏᴛ](https://t.me/Haruki_Robot)",
             force_document=False,
         )
         os.remove(flnme)
